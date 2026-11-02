@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { ArrowDown, Layers, ShieldCheck, Compass } from 'lucide-react';
 import { PERSONAL_INFO } from '../data/portfolioData';
-import { ThreeCanvas } from './ThreeCanvas';
 
 interface HeroProps {
   onExploreWork: () => void;
@@ -35,9 +34,6 @@ export function Hero({ onExploreWork, onConnect }: HeroProps) {
 
       {/* Subtle Cream Grid Accent */}
       <div className="absolute inset-0 bg-cream-grid opacity-60 pointer-events-none" />
-
-      {/* Interactive 3D Three.js Layer in Deep Wine & Taupe */}
-      <ThreeCanvas className="z-0 opacity-70" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-6 items-center min-h-[78vh]">

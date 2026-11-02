@@ -1,7 +1,7 @@
 import portraitImg from '../assets/images/rojina_aryal.png';
-import hmsImg from '../assets/images/hms_portal_mockup_1793541204372.jpg';
-import ieltsImg from '../assets/images/ielts_pte_mockup_1793541217172.jpg';
-import furnitureImg from '../assets/images/furniture_store_mockup_1793541233927.jpg';
+import hmsImg from '../assets/images/hms_project_preview.png';
+import ieltsImg from '../assets/images/image_2c7a1d83.png';
+import furnitureImg from '../assets/images/image_75baccb1.png';
 import movieImg from '../assets/images/movie_app_mockup_1793541247429.jpg';
 import brewImg from '../assets/images/brew_haven_mockup_1793541260639.jpg';
 
