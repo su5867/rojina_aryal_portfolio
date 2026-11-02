@@ -41,6 +41,8 @@ export function About({ onExploreSkills }: AboutProps) {
                 <img
                   src={PERSONAL_INFO.portraitImage}
                   alt="Rojina Aryal Working as UI/UX Designer"
+                  loading="lazy"
+                  decoding="async"
                   className="max-h-[430px] w-auto object-contain filter drop-shadow-[0_12px_24px_rgba(114,47,55,0.15)]"
                 />
 

@@ -1,9 +1,9 @@
-import portraitImg from '../assets/images/rojina_aryal.png';
-import hmsImg from '../assets/images/hms_project_preview.png';
-import ieltsImg from '../assets/images/image_2c7a1d83.png';
-import furnitureImg from '../assets/images/image_75baccb1.png';
-import movieImg from '../assets/images/movie_app_mockup_1793541247429.jpg';
-import brewImg from '../assets/images/brew_haven_mockup_1793541260639.jpg';
+import portraitImg from '../assets/images/rojina_aryal.webp';
+import hmsImg from '../assets/images/hms_project_preview.webp';
+import ieltsImg from '../assets/images/image_2c7a1d83.webp';
+import furnitureImg from '../assets/images/image_75baccb1.webp';
+import movieImg from '../assets/images/movie_app_mockup_1793541247429.webp';
+import brewImg from '../assets/images/brew_haven_mockup_1793541260639.webp';
 
 export interface Project {
   id: string;

@@ -125,7 +125,7 @@ export function Hero({ onExploreWork, onConnect }: HeroProps) {
           </div>
 
           {/* Right Column: Rojina Aryal Cutout with Clean Background & Floating Cards (5 cols) */}
-          <div className="lg:col-span-5 relative flex justify-center items-end min-h-[480px] sm:min-h-[560px]">
+          <div className="lg:col-span-5 relative flex justify-center items-end min-h-[360px] sm:min-h-[560px]">
             {/* Parallax Container */}
             <div
               className="relative w-full max-w-md flex flex-col items-center justify-end transition-transform duration-200 ease-out"
@@ -141,7 +141,10 @@ export function Hero({ onExploreWork, onConnect }: HeroProps) {
                 <img
                   src={PERSONAL_INFO.portraitImage}
                   alt="Rojina Aryal — UI/UX & Product Designer"
-                  className="max-h-[520px] sm:max-h-[620px] w-auto object-contain filter drop-shadow-[0_20px_30px_rgba(114,47,55,0.18)] select-none pointer-events-none transform hover:scale-[1.01] transition-transform duration-300"
+                  loading="eager"
+                  fetchPriority="high"
+                  decoding="async"
+                  className="max-h-[360px] sm:max-h-[620px] w-auto object-contain filter drop-shadow-[0_20px_30px_rgba(114,47,55,0.18)] select-none pointer-events-none transform hover:scale-[1.01] transition-transform duration-300"
                 />
 
                 {/* Grounding Shadow for Natural Standing Look */}

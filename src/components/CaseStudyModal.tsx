@@ -74,6 +74,7 @@ export function CaseStudyModal({ project, isOpen, onClose }: CaseStudyModalProps
             <img
               src={project.image}
               alt={project.title}
+              decoding="async"
               className="w-full h-auto object-cover max-h-[500px]"
             />
             <div className="absolute bottom-3 right-3 px-3 py-1.5 rounded-lg bg-white/90 backdrop-blur-md border border-[#B7A89A] text-[11px] text-[#722F37] font-bold flex items-center gap-1.5 shadow">
